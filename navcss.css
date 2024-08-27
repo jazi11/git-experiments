@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#maindiv{
+
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+
+.mainnav{
+
+background-color: black;
+height: 40px;
+width: 70%;
+margin-left: 300px;
+margin-top: -50px;
+
+
+}
+
+ul{
+    margin-left: 50px;
+    
+}
+
+a{
+
+    text-decoration: none;
+    color: #FFCF2E;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+li{
+    
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 8px; 
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+li:hover {
+
+    transform: scale(1.1);
+    transition: 0.9s;
+    background-color:#FFCF2E;
+    border-radius: 10px;
+    
+}
+
+li:hover a{
+
+    color: black;
+    transition: 0.9s;
+}
+
+.header{
+    background-color: black;
+    color: #FFCF2E;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+/* .header{
+     display: flex; 
+} */
+
+.header h4 {width: 1200px;}
+.social {
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+}
+
+.social img{
+    height: auto;
+    width:23%;
+}
+
+.logo img {
+
+    height: auto;
+    width: 12%;
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.banner1 a img{
+    width:70%;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 30px;
+    
+}
+
+.number{
+    
+    padding-left: 50px;
+    height: auto;
+    width: auto;
+}
+
+
+.marquee {
+    display: flex;
+    animation: scroll 25s linear infinite;
+}
+
+.marquee img {
+    width: 100px; /* Set the width of each image */
+    height: auto;
+    margin: 0 5px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-105%); }
+    45% { transform: translateX(-105%); }
+    50% { transform: translateX(-210%); }
+    70% { transform: translateX(-210%); }
+    75% { transform: translateX(-315%); }
+    95% { transform: translateX(-315%); }
+    100% { transform: translateX(0); }
+}
+
+.sale img{
+    width: 35%;
+    margin-left: 500px;
+}
+
+.companies img{
+
+    margin-left: 100px;
+    width: 90%;
+}
+
+.footer{
+
+    height: 200px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+}
+
+.about{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 50px;
+    
+}
+.lfooter{
+background-color: black;
+width: 400px;
+display: inline-block;
+
+
+}
+
+.flogo{
+    width: auto;
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.rfooter{
+    display: flex;
+    background-color: black;
+    width: 1000px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-right: 15px;
+
+}
+
+.footerst img{
+
+    width: 100%;
+}
